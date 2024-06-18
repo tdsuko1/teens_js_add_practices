@@ -1,0 +1,25 @@
+Tina has a list of her top 5 favorite desserts: 
+1. Tiramisu
+2. Castella
+3. Chocolate Cake
+4. Strawberry Shortcake
+5. Carrot Cake
+Create an array variable of those desserts and print them out in the console using [ArrayName].join(', ').
+Correct answer: Tiramisu, Castella, Chocolate Cake, Strawberry Shortcake, Carrot Cake
+
+One day, she tries out a new cake and she loves it so much. The cake is Mousse Cake. This cake replaces her love for Castella.
+Print out the result using [ArrayName].join(', ') after replacing Castella with Mousse Cake.
+Correct answer: Tiramisu, Mousse Cake, Chocolate Cake, Strawberry Shortcake, Carrot Cake
+
+But later she thinks Castella is still one of her favorite, so she decides to expand her list and adds Castella back to her list. 
+Add Castella into the list and print out the result using [ArrayName].join(', ').
+Correct answer: Tiramisu, Mousse Cake, Chocolate Cake, Strawberry Shortcake, Carrot Cake, Castella
+
+One day, Tina is in a dilemma, she wants to eat one dessert from her favorite desserts, but she is unsure which one to pick, so she decided to throw a dice since the dice has 6 numbers which can represent her top 6 list. 
+Create codes to choose random number between 1 and 6. 
+Then use the result as the index to get the dessert from her list and put in into variable todayDesserts then print out the dessert's name in the console.
+
+Tina also wants to have beverage accompanying her dessert and she thinks certain beverage will be perfect match for certain desserts. If she gets Tiramisu or Chocolate Cake, she wants to have Cappucino with it. If she gets Strawberry Shortcake or Carrot Cake, she wants to have Ice Lemon Tea and if the gets Mousse Cake or Castella, she wants to have Milk Tea. 
+Create conditional check for above conditions and print out the result in console like below example:
+"Today dessert is Tiramisu with Cappucino"
+Please create conditional check using If else If and Switch Case.

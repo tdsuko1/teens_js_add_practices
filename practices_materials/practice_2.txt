@@ -1,0 +1,31 @@
+English Teacher Adi wants to calculate number of students passing the average grade of the class.
+Below are the list of the scores his students get during their last test. 
+70, 75, 60, 70, 85, 90, 90, 75, 100, 96, 82, 45, 98, 45, 60, 65, 51, 86, 56, 79
+Please create code to calculate and print out the result in the console for:
+  1. Total of scores of the class
+  2. Total students of the class
+  3. The average score of the class
+  4. How many students get score above average?
+Tips: you might need to use 2 loops, first to calculate the average, and the second to get number of students above average score.
+Result: 
+Total scores: 1478
+Total students: 20
+Score average: 73.9
+Students above average: 11 students
+
+
+Create code to print out even number between number a and b (a and b are included)
+Tips: put the result inside array named evenNumbers, use another variable to be the index of the array 
+Example: a = 2, b = 9
+Result:
+Even numbers: 2 - 4 - 6 - 8
+
+
+Create code to print out even and odd numbers between number a and b (a and b are included)
+Tips: put the result inside array named evenNumbers and oddNumbers, use different variables to be the index of the array 
+Example: a = 2, b = 9
+Result:
+Even numbers: 2 - 4 - 6 - 8
+Odd numbers: 3 - 5 - 7 - 9
+
+Create code to accept user input of number, while the number given by user is not an odd number, keep on requesting another input.

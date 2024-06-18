@@ -1,0 +1,25 @@
+Create a simple program to categorize input numbers into odd numbers or even numbers.
+1. Pop up prompt for user: "Input number between 1 and 20", repeat the process as long as the input from user is not empty or user doesn't click cancel button. 
+2. If the number is out of the allowed range (which is 1 to 20), pop up an alert "Please only input number between 1 and 20" then pop up the prompt again to ask for the next number.
+Tips: - use isNaN(input) to check if the input is number or not, 
+      - use input === null to check if the input is empty (null) or not
+3. Put the valid numbers into arrNums with the index idxArrNums
+4. Create function to categorize the number in arrNums into two different array: arrEvenNums and arrOddNums. Don't forget to use different index for each array: idxArrEvenNums and idxArrOddNums.
+
+---------------------------------------------------
+Make a random calculation using the numbers from odd and even numbers arrays. 
+Create an array for arithmetic operator '+', '-', 'x', ':', '%'
+Use math.random to get random arithmetic symbol to calculate the number in random index.
+Example:
+arrOps = ['+', '-', 'x', ':', '%']
+arrOddNumbers = [9, 5, 11, 19]
+arrEvenNumbers = [12, 16, 2]
+randomOps = 2
+randomOdd = 1
+randomEven = 2
+Result: 5 x 2 = 10
+
+Example of overall result on console log:
+Odd numbers: 11,5,15
+Even numbers: 4
+Result: 5 - 4 = 1
