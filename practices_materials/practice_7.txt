@@ -1,0 +1,57 @@
+// Buat sebuah array untuk menampung semua input angka yang valid
+// Nama array tentukan sendiri dan nilai awal array adalah array kosong
+
+
+// Buat sebuah variable bertipe integer untuk menampung nilai index array
+// Tentukan nama variable sendiri dan nilai awal variable ini adalah 0
+
+
+// Buat suatu perulangan do while 
+// Pada bagian do, buat sebuah variable 
+// untuk menampung nilai input prompt yang berupa angka
+// Setelah itu buat pengecekan untuk hasil input di atas, 
+// 1. Jika input kosong (gunakan "" untuk pembanding), 
+//    munculkan alert Inputkan angka
+// 2. Jika input tidak berupa angka (gunakan isNaN untuk mengecek),
+//    munculkan alert Input valid hanya berupa angka 
+// 3. Jika input bukan angka dari 5 sampai 25, 
+//    munculkan alert Input valid adalah angka antara 5 - 25
+// Selain 3 kondisi di atas, maka input adalah valid dan 
+// boleh dilakukan proses untuk memasukkan angka ke array
+
+
+// Pada bagian while 
+// buat kondisi input tidak sama dengan null 
+// dan input tidak sama dengan undefined
+// pengecekan ini digunakan untuk menghentikan
+// perulangan ketika tombol cancel di prompt ditekan
+
+
+// Buat sebuah function isEven untuk 
+// mengecek apakah angka adalah genap
+// Function ini mempunyai satu parameter 
+// yaitu angka yang mau dicek
+// jika hasil pengecekan angka adalah genap
+// function akan return true
+
+
+// Buat sebuah function isOdd untuk 
+// mengecek apakah angka adalah ganjil
+// Function ini mempunyai satu parameter 
+// yaitu angka yang mau dicek
+// jika hasil pengecekan angka adalah ganjil
+// function akan return true
+
+// Buat array untuk menampung nilai angka genap
+// Buat array untuk menampung nilai angka ganjil
+// Buat index untuk array angka genap
+// Buat index untuk array angka ganjil
+
+
+// Gunakan perulangan foreach array
+// untuk mengecek element dalam array penampung angka valid 
+// yang dibuat paling awal
+// pengecekan element menggunakan fungsi yang dibuat sebelumnya
+// Jika angka genap, masukkan ke dalam array genap
+// Jika angka ganjil, masukkan ke dalam array ganjil
+// Setelah semua proses selesai, print out isi array Genap dan isi array ganjil

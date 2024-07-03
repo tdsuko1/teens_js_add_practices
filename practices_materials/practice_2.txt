@@ -10,7 +10,7 @@ Tips: you might need to use 2 loops, first to calculate the average, and the sec
 Result: 
 Total scores: 1478
 Total students: 20
-Score average: 73.9
+Average score: 73.9
 Students above average: 11 students
 
 
@@ -27,5 +27,6 @@ Example: a = 2, b = 9
 Result:
 Even numbers: 2 - 4 - 6 - 8
 Odd numbers: 3 - 5 - 7 - 9
+
 
 Create code to accept user input of number, while the number given by user is not an odd number, keep on requesting another input.

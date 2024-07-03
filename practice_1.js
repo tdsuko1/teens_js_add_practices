@@ -1,34 +1,37 @@
-console.log("practice 1 line 7")
-var desserts = [
-	"Tiramisu",
-	"Castella",
-	"Chocolate Cake",
-	"Strawberry Shortcake",
-	"Carrot Cake",
-]
+var desserts = ["Tiramisu", "Castella", "Chocolate Cake", "Strawberry Shortcake", "Carrot Cake"]
 console.log(desserts.join(", "))
+document.write(desserts.join(", "))
+document.write("<br />")
 
-console.log("practice 1 line 11")
 desserts[1] = "Mousse Cake"
 console.log(desserts.join(", "))
+document.write(desserts.join(", "))
+document.write("<br />")
 
-console.log("practice 1 line 15")
 desserts[5] = "Castella"
 console.log(desserts.join(", "))
+document.write(desserts.join(", "))
+document.write("<br />")
 
-console.log("practice 1 line 20")
-dice = Math.floor(Math.random() * 6)
-console.log(desserts[dice])
+rand = Math.floor(Math.random() * 6)
+console.log("Selected index = " + rand)
+document.write("Selected index = " + rand)
+document.write("<br />")
 
-console.log("practice 1 line 23")
-if (desserts[dice] == "Tiramisu" || desserts[dice] == "Chocolate Cake") {
-	console.log("todays desert is " + desserts[dice] + " with Cappucino")
-} else if (
-	desserts[dice] == "Strawberry Shortcake" ||
-	desserts[dice] == "Carrot Cake"
-) {
-	console.log("todays desert is " + desserts[dice] + " with Ice Lemon Tea")
-} else if (desserts[dice] == "Mousse Cake" || desserts[dice] == "Castella") {
-	console.log("todays desert is " + desserts[dice] + " with Milk Tea")
+todayDesserts = desserts[rand]
+console.log("Today's desserts = " + todayDesserts)
+document.write("Today's desserts = " + todayDesserts)
+document.write("<br />")
+
+if (todayDesserts === "Tiramisu" || todayDesserts === "Chocolate Cake") {
+	console.log("Today desert is " + todayDesserts + " with Cappucino")
+	document.write("Today desert is " + todayDesserts + " with Cappucino")
+	document.write("<br />")
+} else if (todayDesserts === "Strawberry Shortcake" || todayDesserts === "Carrot Cake") {
+	console.log("Today desert is " + todayDesserts + " with Ice Lemon Tea")
+	document.write(desserts.join(", "))
+	document.write("<br />")
+} else if (todayDesserts === "Mousse Cake" || todayDesserts === "Castella") {
+	console.log("Today desert is " + todayDesserts + " with Milk Tea")
+	document.write("Today desert is " + todayDesserts + " with Milk Tea")
 }
-console.log(" ")
