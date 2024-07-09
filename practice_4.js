@@ -59,5 +59,5 @@ do {
   Choco pang: 0 x 8000 = 0
   Fruits purin: 0 x 12000 = 0
   Choco purin: 1 x 11000 = 11000
-  Hansel need tp pay 50000
+  Hansel need to pay 50000
 */
