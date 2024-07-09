@@ -18,11 +18,19 @@ do {
 } while (inputNum != null && inputNum != undefined)
 
 function isEven(p) {
-	if (p % 2 == 0) return true
+	if (p % 2 == 0) {
+		return true
+	} else {
+		return false
+	}
 }
 
 function isOdd(p) {
-	if (p % 2 == 1) return true
+	if (p % 2 == 1) {
+		return true
+	} else {
+		return false
+	}
 }
 
 var arrOdds = []
@@ -39,3 +47,21 @@ arrNums.forEach((e) => {
 
 console.log(arrEvens)
 console.log(arrOdds)
+
+// function greetSomeone(guestName) {
+// 	console.log(`Hello, ${guestName}`)
+// }
+// greetSomeone("Ellis")
+
+// function greetMyLastName(guestName) {
+// 	if (guestName == "Ellis") {
+// 		return "Chang"
+// 	}
+// }
+// var lastName = greetMyLastName("Ellis")
+
+var lastName = function greetMyLastName(guestName) {
+	if (guestName == "Ellis") {
+		return "Chang"
+	}
+}
