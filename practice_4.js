@@ -7,31 +7,18 @@ var cashier = "Lia"
 
 // Declare and initialize array variable named items
 // with following items: melon pang, egg pang, cream pang, choco pang, fruits purin, choco purin
-var items = [
-	"Melon pang",
-	"Egg pang",
-	"Cream pang",
-	"Choco pang",
-	"Fruits purin",
-	"Choco purin",
-]
+var items = ["Melon pang", "Egg pang", "Cream pang", "Choco pang", "Fruits purin", "Choco purin"]
 
 // Declare and initialize another array variable named prices
 // with following elements: 7000, 10000, 9000, 8000, 12000, 11000
 // which are the prices for the items
 var prices = [7000, 10000, 9000, 8000, 12000, 11000]
 
-// Declare and initialize array variable named payments
-// which will contain the selection of payment amount by customer
-// later, we will use random number as the index selected
-// the elements are: 1000000, 70000, 120000, 50000, 90000
-var payments = [1000000, 70000, 120000, 50000, 90000]
-
-// Create function which will prompt question about
+// Create function askItemsToBuy which will prompt question about
 // quantity of item that customer bought
 // and also calculate the subtotal
 // and eventually the grand total as well
-function buyItems() {
+function askItemsToBuy() {
 	let total = 0
 	for (i = 0; i < items.length; i++) {
 		let itemName = items[i]
@@ -55,8 +42,8 @@ do {
 	document.write("<br/>")
 	let customer = prompt("Enter customer name: ")
 	if (customer != null) {
-		let total = buyItems()
-		document.write(`${customer} grand total: ${total}`)
+		let total = askItemsToBuy()
+		document.write(`${customer} need to pay ${total}`)
 		document.write("<br/>")
 	} else {
 		break
@@ -72,5 +59,5 @@ do {
   Choco pang: 0 x 8000 = 0
   Fruits purin: 0 x 12000 = 0
   Choco purin: 1 x 11000 = 11000
-  Hansel grand total: 50000
+  Hansel need tp pay 50000
 */
